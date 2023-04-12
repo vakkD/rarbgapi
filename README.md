@@ -6,7 +6,7 @@ The api object will automatically fetch/refresh the token and take care rate con
 
 ## Install
 ```
-pip install rarbgapi
+pip install git+https://github.com/vakkD/rarbgapi
 ```
 
 ## Quickstart
