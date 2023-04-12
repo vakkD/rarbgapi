@@ -194,7 +194,7 @@ def request(func):
                 self._token = content['token']
                 self._log.debug('token=%s', self._token)
             except Exception as exp:  # pylint: disable=broad-except
-                self._log.exception('Unexpected exception %s', exp)
+                # self._log.exception('Unexpected exception %s', exp)
                 retries -= 1
                 if not retries:
                     raise
